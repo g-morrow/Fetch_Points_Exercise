@@ -1,4 +1,4 @@
-To run points.py run the following line in the terminal:
+To run points.py, run the following line in the terminal:
     python3 points.py (amount of points to spend) (csv filename)
 
 Example: spending 5000 points, csv filename is transactions.csv
