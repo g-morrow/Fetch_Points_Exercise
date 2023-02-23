@@ -1,0 +1,23 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+    - I used the CSV module to be able to quickly parse through the CSV file and input it into a local data structure.
+    - I chose python because it is a very readable language and would therefore be easy for the grader to understand.
+        I also am very comfortable in python and knew the dictionary data structure was very well suited for the
+        project requirements because it is a clean and legible way to group data. 
+
+2. What are the advantages and disadvantages of your solution?
+    - Advantages
+        - Time complexity is O(n).
+        - Accounts for scenarios where mistakes could have been made with exceptions.
+        - Work is split into functions making it easy to make adjustments to implementation. 
+    - Disadvantages
+        - Data is not sorted as it is placed in the dictionary.
+        - Code relies on CSV files being properly formatted.
+        - Only reads CSV instead of other types of separated files (ex. TSV)
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+    - A favorite project I have worked on was recreating deleted images and filenames from a disk image.
+        This project was done in C and required a strong understanding of file systems and memory allocation.
+        I found this project challenging as it involved parsing through disk images manually by reading inode
+        tables and working with anywhere from single to triple indirect pointers. Although this project was
+        challenging, I learned a lot and was able to practice debugging skills, working in an unfamiliar environment,
+        and applying learning in a hands-on environment.
